@@ -1,0 +1,3 @@
+{
+  "extends": "@hello.softis/eslint-config/react"
+}
