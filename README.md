@@ -1,4 +1,4 @@
-![image](./public/logoHorizontalBig.svg)
+![image](./public/logoHorizontalNPM.svg)
 
 ---
 
@@ -10,8 +10,8 @@ Discover more at our website: [houston.com](https://houston-icons.vercel.app/)
 
 ![image](./public/tools.svg)
 
-
 ## Table of Contents
+
 - [Features](#features)
 - [Installation](#installation)
 - [Usage Examples](#usage-examples)
@@ -27,18 +27,23 @@ Icons can be downloaded from the [Houston website](https://houston-icons.vercel.
 ## Features
 
 ### Autocomplete for Efficiency
+
 Swiftly find the icon you need with our intuitive autocomplete feature, streamlining your design process.
 
 ### Customizable Size
+
 Freedom to scale: adjust icon sizes effortlessly to match your design requirements.
 
 ### Multiple Variants
+
 Seven distinct variants ensure that you can select the perfect style to match your project's aesthetics.
 
 ### Unlimited Colors
+
 Customize icon colors with ease, giving you the ability to maintain consistency with your brand's color palette.
 
 ### Expansive Library
+
 Access over 27,000 icons within the library, ensuring you'll find the exact icon for every context.
 
 ## Installation
@@ -60,30 +65,33 @@ yarn add @houstonicons/react
 Import the icons you need from the library and integrate them into your React components. Here's how you can customize the icons to fit your needs:
 
 ### Control Icon Size
+
 Adjust the size of your icons by passing a `size` prop:
 
 ```jsx
-import { Home01Icon } from '@houstonicons/react'
+import { Home01Icon } from "@houstonicons/react";
 
-<Home01Icon size={32} /> // Custom size
+<Home01Icon size={32} />; // Custom size
 ```
 
 ### Customize Icon Color
+
 Change the color of your icons by passing a `color` prop:
 
 ```jsx
-import { MarketingIcon } from '@houstonicons/react'
+import { MarketingIcon } from "@houstonicons/react";
 
-<MarketingIcon color="#00FF00" /> // Green color
+<MarketingIcon color="#00FF00" />; // Green color
 ```
 
 ### Control Icon Fill Type
+
 Set the fill style of your icons using the fillType prop:
 
 ```jsx
-import { AddSquareIcons } from '@houstonicons/react'
+import { AddSquareIcons } from "@houstonicons/react";
 
-<AddSquareIcons fillType="solid" /> // Solid fill
+<AddSquareIcons fillType="solid" />; // Solid fill
 ```
 
 ## Live Example

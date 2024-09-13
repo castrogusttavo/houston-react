@@ -1,6 +1,6 @@
 {
   "name": "@houstonicons/react",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Houston Icons React Component Library",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
