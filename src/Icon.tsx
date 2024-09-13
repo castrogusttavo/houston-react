@@ -3,8 +3,8 @@ import React, { useEffect, useState } from 'react'
 export interface IconProps {
   iconName?: string
   iconSize?: number
-  fillType?: 'stroke' | 'solid' | 'bulk' | 'duotone' | 'twotone'
-  cornerStyle?: 'sharp' | 'rounded' | 'standard'
+  fillType?: 'stroke' | 'solid'
+  cornerStyle?: 'rounded'
   color?: string
 }
 

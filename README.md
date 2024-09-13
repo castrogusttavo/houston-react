@@ -46,13 +46,13 @@ Access over 27,000 icons within the library, ensuring you'll find the exact icon
 To start using HoustonIcons-React in your project, install the package via npm:
 
 ```bash
-npm install @houstonicons/pro
+npm install @houstonicons/react
 ```
 
 Or via yarn:
 
 ```bash
-yarn add @houstonicons/pro
+yarn add @houstonicons/react
 ```
 
 ## Usage Examples
@@ -63,7 +63,7 @@ Import the icons you need from the library and integrate them into your React co
 Adjust the size of your icons by passing a `size` prop:
 
 ```jsx
-import { Home01Icon } from '@houstonicons/pro'
+import { Home01Icon } from '@houstonicons/react'
 
 <Home01Icon size={32} /> // Custom size
 ```
@@ -72,25 +72,16 @@ import { Home01Icon } from '@houstonicons/pro'
 Change the color of your icons by passing a `color` prop:
 
 ```jsx
-import { MarketingIcon } from '@houstonicons/pro'
+import { MarketingIcon } from '@houstonicons/react'
 
 <MarketingIcon color="#00FF00" /> // Green color
-```
-
-### Adjust Icon Corners
-Easily modify the corner style of your icons by using the cornerStyle prop:
-
-```jsx
-import { ListSettingIcon } from '@houstonicons/pro'
-
-<ListSettingIcon cornerStyle="rounded" /> // Rounded corners
 ```
 
 ### Control Icon Fill Type
 Set the fill style of your icons using the fillType prop:
 
 ```jsx
-import { AddSquareIcons } from '@houstonicons/pro'
+import { AddSquareIcons } from '@houstonicons/react'
 
 <AddSquareIcons fillType="solid" /> // Solid fill
 ```
