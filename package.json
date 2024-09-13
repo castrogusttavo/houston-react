@@ -1,7 +1,7 @@
 {
   "name": "@houstonicons/react",
   "version": "1.0.5",
-  "description": "Houston Pro React Component Library",
+  "description": "Houston Icons React Component Library",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
@@ -11,10 +11,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/castrogusttavo/Houston.git"
+    "url": "git+ssh://git@github.com/castrogusttavo/houston-react.git"
   },
   "bugs": {
-    "url": "https://github.com/castrogusttavo/Houston.git/issues"
+    "url": "https://github.com/castrogusttavo/houston-react.git/issues"
   },
   "exports": {
     ".": {
