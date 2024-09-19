@@ -38835,7 +38835,7 @@ function ForgotPasswordIcon(_a) {
 // src/icons/FourKIcon.tsx
 import { jsx as jsx3992 } from "react/jsx-runtime";
 function FourKIcon(_a) {
-  var _b = _a, { iconName = "four-k" } = _b, props = __objRest(_b, ["iconName"]);
+  var _b = _a, { iconName = "4k" } = _b, props = __objRest(_b, ["iconName"]);
   return /* @__PURE__ */ jsx3992(Icon, __spreadProps(__spreadValues({}, props), { iconName }));
 }
 
@@ -39865,178 +39865,189 @@ function ThreadIcon(_a) {
   return /* @__PURE__ */ jsx4102(Icon, __spreadProps(__spreadValues({}, props), { iconName }));
 }
 
-// src/icons/ThreeDViewIcon.tsx
+// src/icons/TipsIcon.tsx
 import { jsx as jsx4103 } from "react/jsx-runtime";
-function ThreeDViewIcon(_a) {
-  var _b = _a, {
-    iconName = "three-d-view"
-  } = _b, props = __objRest(_b, [
-    "iconName"
-  ]);
+function TipsIcon(_a) {
+  var _b = _a, { iconName = "tips" } = _b, props = __objRest(_b, ["iconName"]);
   return /* @__PURE__ */ jsx4103(Icon, __spreadProps(__spreadValues({}, props), { iconName }));
 }
 
-// src/icons/TipsIcon.tsx
+// src/icons/ToolsIcon.tsx
 import { jsx as jsx4104 } from "react/jsx-runtime";
-function TipsIcon(_a) {
-  var _b = _a, { iconName = "tips" } = _b, props = __objRest(_b, ["iconName"]);
+function ToolsIcon(_a) {
+  var _b = _a, { iconName = "tools" } = _b, props = __objRest(_b, ["iconName"]);
   return /* @__PURE__ */ jsx4104(Icon, __spreadProps(__spreadValues({}, props), { iconName }));
 }
 
-// src/icons/ToolsIcon.tsx
-import { jsx as jsx4105 } from "react/jsx-runtime";
-function ToolsIcon(_a) {
-  var _b = _a, { iconName = "tools" } = _b, props = __objRest(_b, ["iconName"]);
-  return /* @__PURE__ */ jsx4105(Icon, __spreadProps(__spreadValues({}, props), { iconName }));
-}
-
 // src/icons/TradeDownIcon.tsx
-import { jsx as jsx4106 } from "react/jsx-runtime";
+import { jsx as jsx4105 } from "react/jsx-runtime";
 function TradeDownIcon(_a) {
   var _b = _a, {
     iconName = "trade-down"
   } = _b, props = __objRest(_b, [
     "iconName"
   ]);
-  return /* @__PURE__ */ jsx4106(Icon, __spreadProps(__spreadValues({}, props), { iconName }));
+  return /* @__PURE__ */ jsx4105(Icon, __spreadProps(__spreadValues({}, props), { iconName }));
 }
 
 // src/icons/TradeUpIcon.tsx
-import { jsx as jsx4107 } from "react/jsx-runtime";
+import { jsx as jsx4106 } from "react/jsx-runtime";
 function TradeUpIcon(_a) {
   var _b = _a, { iconName = "trade-up" } = _b, props = __objRest(_b, ["iconName"]);
-  return /* @__PURE__ */ jsx4107(Icon, __spreadProps(__spreadValues({}, props), { iconName }));
+  return /* @__PURE__ */ jsx4106(Icon, __spreadProps(__spreadValues({}, props), { iconName }));
 }
 
 // src/icons/TravelBagIcon.tsx
-import { jsx as jsx4108 } from "react/jsx-runtime";
+import { jsx as jsx4107 } from "react/jsx-runtime";
 function TravelBagIcon(_a) {
   var _b = _a, {
     iconName = "travel-bag"
   } = _b, props = __objRest(_b, [
     "iconName"
   ]);
-  return /* @__PURE__ */ jsx4108(Icon, __spreadProps(__spreadValues({}, props), { iconName }));
+  return /* @__PURE__ */ jsx4107(Icon, __spreadProps(__spreadValues({}, props), { iconName }));
 }
 
 // src/icons/Tree01Icon.tsx
-import { jsx as jsx4109 } from "react/jsx-runtime";
+import { jsx as jsx4108 } from "react/jsx-runtime";
 function Tree01Icon(_a) {
   var _b = _a, { iconName = "tree-01" } = _b, props = __objRest(_b, ["iconName"]);
-  return /* @__PURE__ */ jsx4109(Icon, __spreadProps(__spreadValues({}, props), { iconName }));
+  return /* @__PURE__ */ jsx4108(Icon, __spreadProps(__spreadValues({}, props), { iconName }));
 }
 
 // src/icons/Tree02Icon.tsx
-import { jsx as jsx4110 } from "react/jsx-runtime";
+import { jsx as jsx4109 } from "react/jsx-runtime";
 function Tree02Icon(_a) {
   var _b = _a, { iconName = "tree-02" } = _b, props = __objRest(_b, ["iconName"]);
-  return /* @__PURE__ */ jsx4110(Icon, __spreadProps(__spreadValues({}, props), { iconName }));
+  return /* @__PURE__ */ jsx4109(Icon, __spreadProps(__spreadValues({}, props), { iconName }));
 }
 
 // src/icons/Tree03Icon.tsx
-import { jsx as jsx4111 } from "react/jsx-runtime";
+import { jsx as jsx4110 } from "react/jsx-runtime";
 function Tree03Icon(_a) {
   var _b = _a, { iconName = "tree-03" } = _b, props = __objRest(_b, ["iconName"]);
-  return /* @__PURE__ */ jsx4111(Icon, __spreadProps(__spreadValues({}, props), { iconName }));
+  return /* @__PURE__ */ jsx4110(Icon, __spreadProps(__spreadValues({}, props), { iconName }));
 }
 
 // src/icons/Tree04Icon.tsx
-import { jsx as jsx4112 } from "react/jsx-runtime";
+import { jsx as jsx4111 } from "react/jsx-runtime";
 function Tree04Icon(_a) {
   var _b = _a, { iconName = "tree-04" } = _b, props = __objRest(_b, ["iconName"]);
-  return /* @__PURE__ */ jsx4112(Icon, __spreadProps(__spreadValues({}, props), { iconName }));
+  return /* @__PURE__ */ jsx4111(Icon, __spreadProps(__spreadValues({}, props), { iconName }));
 }
 
 // src/icons/Tree05Icon.tsx
-import { jsx as jsx4113 } from "react/jsx-runtime";
+import { jsx as jsx4112 } from "react/jsx-runtime";
 function Tree05Icon(_a) {
   var _b = _a, { iconName = "tree-05" } = _b, props = __objRest(_b, ["iconName"]);
-  return /* @__PURE__ */ jsx4113(Icon, __spreadProps(__spreadValues({}, props), { iconName }));
+  return /* @__PURE__ */ jsx4112(Icon, __spreadProps(__spreadValues({}, props), { iconName }));
 }
 
 // src/icons/Tree06Icon.tsx
-import { jsx as jsx4114 } from "react/jsx-runtime";
+import { jsx as jsx4113 } from "react/jsx-runtime";
 function Tree06Icon(_a) {
   var _b = _a, { iconName = "tree-06" } = _b, props = __objRest(_b, ["iconName"]);
-  return /* @__PURE__ */ jsx4114(Icon, __spreadProps(__spreadValues({}, props), { iconName }));
+  return /* @__PURE__ */ jsx4113(Icon, __spreadProps(__spreadValues({}, props), { iconName }));
 }
 
 // src/icons/Tree07Icon.tsx
-import { jsx as jsx4115 } from "react/jsx-runtime";
+import { jsx as jsx4114 } from "react/jsx-runtime";
 function Tree07Icon(_a) {
   var _b = _a, { iconName = "tree-07" } = _b, props = __objRest(_b, ["iconName"]);
-  return /* @__PURE__ */ jsx4115(Icon, __spreadProps(__spreadValues({}, props), { iconName }));
+  return /* @__PURE__ */ jsx4114(Icon, __spreadProps(__spreadValues({}, props), { iconName }));
 }
 
 // src/icons/TulipIcon.tsx
-import { jsx as jsx4116 } from "react/jsx-runtime";
+import { jsx as jsx4115 } from "react/jsx-runtime";
 function TulipIcon(_a) {
   var _b = _a, { iconName = "tulip" } = _b, props = __objRest(_b, ["iconName"]);
-  return /* @__PURE__ */ jsx4116(Icon, __spreadProps(__spreadValues({}, props), { iconName }));
+  return /* @__PURE__ */ jsx4115(Icon, __spreadProps(__spreadValues({}, props), { iconName }));
 }
 
 // src/icons/TwoFactorAccessIcon.tsx
-import { jsx as jsx4117 } from "react/jsx-runtime";
+import { jsx as jsx4116 } from "react/jsx-runtime";
 function TwoFactorAccessIcon(_a) {
   var _b = _a, {
     iconName = "two-factor-access"
   } = _b, props = __objRest(_b, [
     "iconName"
   ]);
-  return /* @__PURE__ */ jsx4117(Icon, __spreadProps(__spreadValues({}, props), { iconName }));
+  return /* @__PURE__ */ jsx4116(Icon, __spreadProps(__spreadValues({}, props), { iconName }));
 }
 
 // src/icons/UnsplashIcon.tsx
-import { jsx as jsx4118 } from "react/jsx-runtime";
+import { jsx as jsx4117 } from "react/jsx-runtime";
 function UnsplashIcon(_a) {
   var _b = _a, { iconName = "unsplash" } = _b, props = __objRest(_b, ["iconName"]);
-  return /* @__PURE__ */ jsx4118(Icon, __spreadProps(__spreadValues({}, props), { iconName }));
+  return /* @__PURE__ */ jsx4117(Icon, __spreadProps(__spreadValues({}, props), { iconName }));
 }
 
 // src/icons/ViewOffSlashIcon.tsx
-import { jsx as jsx4119 } from "react/jsx-runtime";
+import { jsx as jsx4118 } from "react/jsx-runtime";
 function ViewOffSlashIcon(_a) {
   var _b = _a, {
     iconName = "view-off-slash"
   } = _b, props = __objRest(_b, [
     "iconName"
   ]);
-  return /* @__PURE__ */ jsx4119(Icon, __spreadProps(__spreadValues({}, props), { iconName }));
+  return /* @__PURE__ */ jsx4118(Icon, __spreadProps(__spreadValues({}, props), { iconName }));
 }
 
 // src/icons/WaitersIcon.tsx
-import { jsx as jsx4120 } from "react/jsx-runtime";
+import { jsx as jsx4119 } from "react/jsx-runtime";
 function WaitersIcon(_a) {
   var _b = _a, { iconName = "waiters" } = _b, props = __objRest(_b, ["iconName"]);
-  return /* @__PURE__ */ jsx4120(Icon, __spreadProps(__spreadValues({}, props), { iconName }));
+  return /* @__PURE__ */ jsx4119(Icon, __spreadProps(__spreadValues({}, props), { iconName }));
 }
 
 // src/icons/WaiterIcon.tsx
-import { jsx as jsx4121 } from "react/jsx-runtime";
+import { jsx as jsx4120 } from "react/jsx-runtime";
 function WaiterIcon(_a) {
   var _b = _a, { iconName = "waiter" } = _b, props = __objRest(_b, ["iconName"]);
-  return /* @__PURE__ */ jsx4121(Icon, __spreadProps(__spreadValues({}, props), { iconName }));
+  return /* @__PURE__ */ jsx4120(Icon, __spreadProps(__spreadValues({}, props), { iconName }));
 }
 
 // src/icons/WarehouseIcon.tsx
-import { jsx as jsx4122 } from "react/jsx-runtime";
+import { jsx as jsx4121 } from "react/jsx-runtime";
 function WarehouseIcon(_a) {
   var _b = _a, { iconName = "warehouse" } = _b, props = __objRest(_b, ["iconName"]);
-  return /* @__PURE__ */ jsx4122(Icon, __spreadProps(__spreadValues({}, props), { iconName }));
+  return /* @__PURE__ */ jsx4121(Icon, __spreadProps(__spreadValues({}, props), { iconName }));
 }
 
 // src/icons/Xls01Icon.tsx
-import { jsx as jsx4123 } from "react/jsx-runtime";
+import { jsx as jsx4122 } from "react/jsx-runtime";
 function Xls01Icon(_a) {
   var _b = _a, { iconName = "xls-01" } = _b, props = __objRest(_b, ["iconName"]);
-  return /* @__PURE__ */ jsx4123(Icon, __spreadProps(__spreadValues({}, props), { iconName }));
+  return /* @__PURE__ */ jsx4122(Icon, __spreadProps(__spreadValues({}, props), { iconName }));
 }
 
 // src/icons/Xls02Icon.tsx
-import { jsx as jsx4124 } from "react/jsx-runtime";
+import { jsx as jsx4123 } from "react/jsx-runtime";
 function Xls02Icon(_a) {
   var _b = _a, { iconName = "xls-02" } = _b, props = __objRest(_b, ["iconName"]);
+  return /* @__PURE__ */ jsx4123(Icon, __spreadProps(__spreadValues({}, props), { iconName }));
+}
+
+// src/icons/WindowsNewIcon.tsx
+import { jsx as jsx4124 } from "react/jsx-runtime";
+function WindowsNewIcon(_a) {
+  var _b = _a, {
+    iconName = "windows-new"
+  } = _b, props = __objRest(_b, [
+    "iconName"
+  ]);
   return /* @__PURE__ */ jsx4124(Icon, __spreadProps(__spreadValues({}, props), { iconName }));
+}
+
+// src/icons/WindowsOldIcon.tsx
+import { jsx as jsx4125 } from "react/jsx-runtime";
+function WindowsOldIcon(_a) {
+  var _b = _a, {
+    iconName = "windows-old"
+  } = _b, props = __objRest(_b, [
+    "iconName"
+  ]);
+  return /* @__PURE__ */ jsx4125(Icon, __spreadProps(__spreadValues({}, props), { iconName }));
 }
 export {
   AbacusIcon,
@@ -43714,7 +43725,6 @@ export {
   ThreeDMoveIcon,
   ThreeDRotateIcon,
   ThreeDScaleIcon,
-  ThreeDViewIcon,
   ThreeFinger01Icon,
   ThreeFinger02Icon,
   ThreeFinger03Icon,
@@ -44090,6 +44100,8 @@ export {
   WindPowerIcon,
   WindSurfIcon,
   WindTurbineIcon,
+  WindowsNewIcon,
+  WindowsOldIcon,
   WinkIcon,
   WinkingIcon,
   WirelessCloudAccessIcon,
