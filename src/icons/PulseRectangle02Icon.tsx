@@ -1,6 +1,9 @@
 import React from 'react'
 import { Icon, IconProps } from '../Icon'
 
-export function PulseRectangle02Icon({ iconName = 'pulse-rectangle-02-icon', ...props }: IconProps) {
+export function PulseRectangle02Icon({
+  iconName = 'pulse-rectangle-02',
+  ...props
+}: IconProps) {
   return <Icon {...props} iconName={iconName} />
 }

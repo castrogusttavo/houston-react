@@ -1,6 +1,9 @@
 import React from 'react'
 import { Icon, IconProps } from '../Icon'
 
-export function AiProgrammingIcon({ iconName = 'ai-programming-icon', ...props }: IconProps) {
+export function AiProgrammingIcon({
+  iconName = 'ai-programming',
+  ...props
+}: IconProps) {
   return <Icon {...props} iconName={iconName} />
 }

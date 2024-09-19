@@ -1,6 +1,6 @@
 import React from 'react'
 import { Icon, IconProps } from '../Icon'
 
-export function ThreadIcon({ iconName = 'thread-icon', ...props }: IconProps) {
+export function ThreadIcon({ iconName = 'thread', ...props }: IconProps) {
   return <Icon {...props} iconName={iconName} />
 }
