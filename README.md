@@ -66,12 +66,12 @@ Import the icons you need from the library and integrate them into your React co
 
 ### Control Icon Size
 
-Adjust the size of your icons by passing a `size` prop:
+Adjust the size of your icons by passing a `iconSize` prop:
 
 ```jsx
 import { Home01Icon } from "@houstonicons/react";
 
-<Home01Icon size={32} />; // Custom size
+<Home01Icon iconSize={32} />; // Custom size
 ```
 
 ### Customize Icon Color
