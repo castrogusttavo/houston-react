@@ -3,12 +3,13 @@ import * as react_jsx_runtime from 'react/jsx-runtime';
 
 interface IconProps {
     iconName?: string;
-    iconSize?: number;
-    fillType?: 'stroke' | 'solid';
-    cornerStyle?: 'rounded';
+    size?: number;
+    variant?: 'stroke' | 'solid' | 'bulk' | 'duotone' | 'twotone';
+    type?: 'sharp' | 'rounded' | 'standard';
     color?: string;
+    strokeWidth?: number;
 }
-declare function Icon({ iconName, iconSize, fillType, cornerStyle, color, }: IconProps): React.ReactNode;
+declare function Icon({ iconName, size, variant, type, color, strokeWidth, }: IconProps): React.ReactNode;
 
 declare function AbacusIcon({ iconName, ...props }: IconProps): react_jsx_runtime.JSX.Element;
 

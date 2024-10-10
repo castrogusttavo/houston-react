@@ -34,21 +34,22 @@ var __objRest = (source, exclude) => {
 import React, { useEffect, useState } from "react";
 function Icon({
   iconName = "default-icon",
-  iconSize = 24,
-  fillType = "stroke",
-  cornerStyle = "rounded",
-  color = "#000000"
+  size = 24,
+  variant = "stroke",
+  type = "rounded",
+  color = "#000000",
+  strokeWidth = 1.5
 }) {
   const [svgElement, setSvgElement] = useState(null);
   useEffect(() => {
     const validatedIconName = String(iconName);
-    const iconUrl = `https://cdn.hugeicons.com/icons/${validatedIconName}-${fillType}-${cornerStyle}.svg`;
+    const iconUrl = `https://cdn.hugeicons.com/icons/${validatedIconName}-${variant}-${type}.svg`;
     fetch(iconUrl).then((response) => response.text()).then((svgText) => {
       const parser = new DOMParser();
       const svgDoc = parser.parseFromString(svgText, "image/svg+xml");
       const svgNode = svgDoc.documentElement;
-      svgNode.setAttribute("width", iconSize.toString());
-      svgNode.setAttribute("height", iconSize.toString());
+      svgNode.setAttribute("width", size.toString());
+      svgNode.setAttribute("height", size.toString());
       svgNode.setAttribute("color", color);
       svgNode.querySelectorAll("*").forEach((element) => {
         const hasFill = element.hasAttribute("fill");
@@ -58,6 +59,7 @@ function Icon({
         }
         if (hasStroke) {
           element.setAttribute("stroke", "currentColor");
+          element.setAttribute("stroke-width", strokeWidth.toString());
         }
       });
       setSvgElement(
@@ -75,7 +77,7 @@ function Icon({
       console.error(`Error loading SVG icon: ${error}`);
       setSvgElement(null);
     });
-  }, [iconName, iconSize, fillType, cornerStyle, color]);
+  }, [iconName, size, variant, type, color, strokeWidth]);
   return svgElement;
 }
 
