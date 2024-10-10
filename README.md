@@ -60,12 +60,12 @@ yarn add @houstonicons/react
 Import the icons you need from the library and integrate them into your React components. Here's how you can customize the icons to fit your needs:
 
 ### Control Icon Size
-Adjust the size of your icons by passing a `iconSize` prop:
+Adjust the size of your icons by passing a `size` prop:
 
 ```jsx
 import { Home01Icon } from '@houstonicons/react'
 
-<Home01Icon iconSize={32} /> // Custom size
+<Home01Icon size={32} /> // Custom size
 ```
 
 ### Customize Icon Color
@@ -78,21 +78,21 @@ import { MarketingIcon } from '@houstonicons/react'
 ```
 
 ### Adjust Icon Corners
-Easily modify the corner style of your icons by using the cornerStyle prop:
+Easily modify the corner style of your icons by using the ``type`` prop:
 
 ```jsx
 import { ListSettingIcon } from '@houstonicons/react'
 
-<ListSettingIcon cornerStyle="rounded" /> // Rounded corners
+<ListSettingIcon type="rounded" /> // Rounded corners
 ```
 
 ### Control Icon Fill Type
-Set the fill style of your icons using the fillType prop:
+Set the fill style of your icons using the ``variant`` prop:
 
 ```jsx
 import { AddSquareIcons } from '@houstonicons/react'
 
-<AddSquareIcons fillType="solid" /> // Solid fill
+<AddSquareIcons variant="solid" /> // Solid fill
 ```
 
 ## Live Example
